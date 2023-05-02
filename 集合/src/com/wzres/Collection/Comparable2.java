@@ -4,7 +4,7 @@ import java.util.TreeSet;
 
 /**
  * @ClassName：Comparable2
- * @description：比较器进阶
+ * @description：①实现Comparable方式
  * @date：2023-05-02 12:16
  */
 //需求：先按照年龄升序，如果年龄相同，再按照名字升序
@@ -42,7 +42,7 @@ class Student implements Comparable<Student>{
 
     @Override
     public String toString() {
-        return "Studeng{" +
+        return "Student{" +
                 "age=" + age +
                 ", username='" + username + '\'' +
                 '}';

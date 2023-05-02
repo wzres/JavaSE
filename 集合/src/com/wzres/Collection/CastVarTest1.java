@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * @ClassName：CastVarTest1
- * @description：
+ * @description：①实现Comparable方式
  * @date：2023-05-02 12:54
  */
 public class CastVarTest1 {
