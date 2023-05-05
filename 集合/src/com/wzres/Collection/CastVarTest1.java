@@ -26,7 +26,7 @@ public class CastVarTest1 {
         s.add("b");
         s.add("c");
 
-        List list4 = new ArrayList(Arrays.asList(s)); //如果传入一个集合，就不能使用泛型
+        List list4 = new ArrayList(Arrays.asList(s)); //如果传入一个集合，就不能使用泛型，仅限Set ➟ list
         for (Object o : list4) {
             System.out.println(o); //[a,b,c]
         }
